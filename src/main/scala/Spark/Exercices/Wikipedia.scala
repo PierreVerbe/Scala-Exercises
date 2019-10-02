@@ -1,5 +1,5 @@
 package Spark.Exercices
 
-class SparkTest {
+object Wikipedia {
 
 }
