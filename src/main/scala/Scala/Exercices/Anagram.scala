@@ -7,10 +7,10 @@ object Anagram extends App {
   ex : Listen and Silent
    */
 
-  //not anagram
+  //Not an anagram
   println("Listen and Silent are anagram ? " + isAnagram("Listen", "Silant"))
 
-  //anagram
+  //An anagram
   println("Listen and Silent are anagram ? " + isAnagram("Listen", "Silent"))
 
   def isAnagram(word: String, anagram: String): Boolean = {

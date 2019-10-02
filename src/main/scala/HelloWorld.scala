@@ -3,17 +3,9 @@ object HelloWorld extends App{
 }
 
 /*
-
-
-
-  def isAnagramRecursive(word: String, anagram:String): Boolean = ???
-
-
-
-  /*
   Fibonacci series : next number is the sum of previous two numbers
   ex : 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55
-   */
+
 
   def fibonacciSeries(n: Int) : Int = {
     var n0 = 0
@@ -43,20 +35,13 @@ object HelloWorld extends App{
     fibonacciSeriesTailRecursive(n - 1, n1, n0 + n1)
   }
 
-  /*
-  nombre premier
-
-   */
-
-  /*
   Concatenate string
-   */
 
-  //Bubble sort
+  Bubble sort
 
-  //cantor
+  cantor
 
-  //PGCD
+  PGCD
 
-  //triangle de Pascal
+  Triangle de Pascal
  */

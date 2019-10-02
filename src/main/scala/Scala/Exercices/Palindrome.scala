@@ -7,10 +7,10 @@ object Palindrome extends App{
   ex : kayak, bob
   */
 
-  //not palindrome
+  //Not a palindrome
   println("ThisThing is a palindrome ? " + isPalindrome("ThisThing"))
 
-  //palindrome
+  //A Palindrome
   println("Kayak is a palindrome ? " + isPalindrome("Kayak"))
 
   def isPalindrome(word: String): Boolean = {
