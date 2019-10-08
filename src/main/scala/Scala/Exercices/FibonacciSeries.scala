@@ -3,7 +3,7 @@ package Scala.Exercices
 object FibonacciSeries extends App {
 
   /*
-  Fibonacci series : next number is the sum of previous two numbers
+  Fibonacci series : Next number is the sum of previous two numbers
   ex : 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55
   */
 
@@ -25,6 +25,7 @@ object FibonacciSeries extends App {
       else if (nInner == 1) return n1
       fibonacciSeriesTailRecursiveInner(nInner - 1, n1, n0 + n1)
     }
+
     fibonacciSeriesTailRecursiveInner(n, 0, 1)
   }
 
