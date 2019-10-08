@@ -11,3 +11,13 @@ Here is a list of some exercises :
 - Palindrome
 - Prime number 
 - etc ...
+
+
+## TO DO
+    - REDAME
+    - Concatenate string
+    - Bubble sort
+    - Cantor
+    - PGCD
+    - Pascal's triangle
+    - Use Scala style
