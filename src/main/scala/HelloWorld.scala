@@ -35,6 +35,10 @@ object HelloWorld extends App{
     fibonacciSeriesTailRecursive(n - 1, n1, n0 + n1)
   }
 
+  TO DO
+
+  REDAME
+
   Concatenate string
 
   Bubble sort
@@ -44,4 +48,6 @@ object HelloWorld extends App{
   PGCD
 
   Triangle de Pascal
+
+  sbt add Scala style
  */

@@ -10,3 +10,6 @@ libraryDependencies ++= Seq(
   "org.apache.spark" %% "spark-core" % "2.4.1",
   "org.apache.spark" %% "spark-sql" % "2.4.1"
 )
+
+//libraryDependencies += "org.scalastyle" % "scalastyle-maven-plugin" % "1.0.0"
+addSbtPlugin("org.scalastyle" %% "scalastyle-sbt-plugin" % "1.0.0")
