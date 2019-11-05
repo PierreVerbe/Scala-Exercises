@@ -12,4 +12,11 @@ class PrimeNumberTest extends FunSuite with Matchers {
     PrimeNumber.isPrimeNumber(43) shouldBe true
   }
 
+  test("88 should return false because it's not a prime number => other solution") {
+    PrimeNumber.isPrimeNumberPrime(88) shouldBe false
+  }
+
+  test("43 should return true because it's a prime number => other solution") {
+    PrimeNumber.isPrimeNumberPrime(43) shouldBe true
+  }
 }
