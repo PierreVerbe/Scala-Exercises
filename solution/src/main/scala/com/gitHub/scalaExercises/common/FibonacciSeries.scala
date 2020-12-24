@@ -8,10 +8,10 @@ object FibonacciSeries extends App {
    */
 
   //Fibonacci of 1
-  println("F1 equals ? " + fibonacciSeries(1)) //equals 1
+  println("F1 equals ? " + fibonacciSeries(1)) //Equals 1
 
   //Fibonacci of 7
-  println("F7 equals ? " + fibonacciSeries(7)) //equals 13
+  println("F7 equals ? " + fibonacciSeries(7)) //Equals 13
 
   def fibonacciSeries(n: Int): Int = {
     if (n < 2) n
