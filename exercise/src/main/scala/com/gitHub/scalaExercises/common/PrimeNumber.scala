@@ -23,8 +23,4 @@ object PrimeNumber extends App {
     isPrimeNumberRecursive(number / 2)
   }
 
-  def isPrimeNumberPrime(number: Int): Boolean = {
-    (2 until number) forall (d => number % d != 0)
-  }
-
 }
