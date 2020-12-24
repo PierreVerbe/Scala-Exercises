@@ -3,20 +3,22 @@ package com.gitHub.scalaExercises.common
 object PascalTriangle extends App {
 
   /*
- Fibonacci series : Next number is the sum of previous two numbers
- ex : 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55
- */
+  Pascal triangle : Is a presentation of binomial coefficients in a triangle
+  ex :       1
+            1, 1
+           1, 2, 1
+          1, 3, 3, 1
+         1, 4, 6, 4, 1
+        1, 5, 10, 10, 5, 1
+   */
 
-  //Fibonacci of 1
-  //println("F1 equals ? " + fibonacciSeries(1)) //equals 1
+  //Pascal triangle of column 0 & row 3
+  println("Pascal triangle of c = 0 & r = 3 ? " + pascal(0, 3)) //equals 1
 
-  //Fibonacci of 7
-  //println("F7 equals ? " + fibonacciSeries(7)) //equals 13
+  //Pascal triangle of column 7 & row 3
+  println("Pascal triangle of c = 4 & r = 5 ? " + pascal(3, 5)) //equals 10
 
 
-  def pascal(c: Int, r: Int): Int = {
-    if (c == 0 || c == r) 1
-    else pascal(c - 1, r - 1) + pascal(c, r - 1)
-  }
+  def pascal(c: Int, r: Int): Int = ???
 
 }

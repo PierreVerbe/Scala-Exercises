@@ -14,13 +14,6 @@ object PrimeNumber extends App {
   //A prime number
   println("7 is a prime number ? " + isPrimeNumber(7))
 
-  def isPrimeNumber(number: Int): Boolean = {
-    def isPrimeNumberRecursive(divisor: Int): Boolean = {
-      if (divisor <= 1) true
-      else number % divisor != 0 && isPrimeNumberRecursive(divisor - 1)
-    }
-
-    isPrimeNumberRecursive(number / 2)
-  }
+  def isPrimeNumber(number: Int): Boolean = ???
 
 }
