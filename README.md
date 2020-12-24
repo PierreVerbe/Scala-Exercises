@@ -1,46 +1,26 @@
 # Scala Exercices
 
 ## About this repository
-This repository contains few exercices of Scala and Spark
+This repository contains few exercises of Scala and Spark. <br>
+To do the exercises, simply go to the subproject named "exercise". <br>
+Unit tests have been implemented to validate the exercise. <br>
 
-To do the exercises, simply go to the exercise branch "doExercice"
+## Prerequisite
+* Install Java 8 <br>
+* Install Simple Build Tool (SBT) <br>
+* Install an IDE
 
-Unit tests have been implemented to validate the exercise.
+## Installation
+* First clone this project
+```bash
+git clone https://github.com/PierreVerbe/Scala-Exercises
+```
 
+## Exercises
 Here is a list of some exercises :
 - Anagram
 - Palindrome
 - Prime number
 - etc ...
 
-## TODO list
-readme
-RENAME repo to scala exercices
-Concatenate string
-Bubble sort
-cantor
-PGCD
-Triangle de Pascal
-sbt add Scala style
-regex
-spark
-
-To do the exercises, simply go to the exercise branch "doExercice"
-
-Unit tests have been implemented to validate the exercise.
-
-Here is a list of some exercises :
-- Anagram
-- Palindrome
-- Prime number 
-- etc ...
-
-
-## TO DO
-    - REDAME
-    - Concatenate string
-    - Bubble sort
-    - Cantor
-    - PGCD
-    - Pascal's triangle
-    - Use Scala style
+## Notes

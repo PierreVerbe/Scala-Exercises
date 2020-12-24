@@ -1,4 +1,4 @@
-package Scala.Exercices
+package com.gitHub.scalaExercises.common
 
 object PrimeNumber extends App {
 
