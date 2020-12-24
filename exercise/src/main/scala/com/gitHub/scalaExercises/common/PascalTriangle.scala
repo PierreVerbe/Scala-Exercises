@@ -13,10 +13,10 @@ object PascalTriangle extends App {
    */
 
   //Pascal triangle of column 0 & row 3
-  println("Pascal triangle of c = 0 & r = 3 ? " + pascal(0, 3)) //equals 1
+  println("Pascal triangle of c = 0 & r = 3 ? " + pascal(0, 3)) //Equals 1
 
   //Pascal triangle of column 7 & row 3
-  println("Pascal triangle of c = 4 & r = 5 ? " + pascal(3, 5)) //equals 10
+  println("Pascal triangle of c = 4 & r = 5 ? " + pascal(3, 5)) //Equals 10
 
 
   def pascal(c: Int, r: Int): Int = ???
