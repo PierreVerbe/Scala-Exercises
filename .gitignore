@@ -4,15 +4,9 @@
 
 ### IDE ###
 .idea
+out/
 
 ### SBT ###
-dist/*
 target/
-lib_managed/
-src_managed/
-project/boot/
-project/plugins/project/
-.history
-.cache
-.lib/
-.bsp
+project/
+.bsp/

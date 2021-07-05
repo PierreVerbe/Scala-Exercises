@@ -1,3 +1,3 @@
-[debug] "not up to date. inChanged = true, force = false
-[debug] Updating ProjectRef(uri("file:/Users/pierreverbe/Documents/Pierre/Project/Scala_Spark_Exercices/"), "exercise")...
-[debug] Done updating ProjectRef(uri("file:/Users/pierreverbe/Documents/Pierre/Project/Scala_Spark_Exercices/"), "exercise")
+[warn] jackson-annotations-2.9.9-sources.jar no longer exists at \Users\pierreverbe\Library\Caches\Coursier\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-annotations\2.9.9\jackson-annotations-2.9.9-sources.jar
+[debug] not up to date. inChanged = false, force = false
+[debug] Updating ProjectRef(uri("file:/C:/Users/pierr/Desktop/Scala-Exercises/"), "exercise")...
